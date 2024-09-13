@@ -8,6 +8,12 @@
     justify-content: center; 
 }
 
+.header-top-row input{
+  border-radius: 3px;
+  border:none;
+  margin:5px;
+}
+
 #header-button{
     padding: 10px 20px;
     font-size: 18px;
@@ -206,9 +212,10 @@ main{
     flex-wrap: nowrap;
 }
 
-.subsection img{
+.subsection > div img{
   width:100%;
-  padding:5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
   
   .subsection > div {
@@ -231,8 +238,12 @@ section{
   background-color: #90d6d29c;
   height:auto;
   border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
+section img{
+  border-radius: 3px;
+}
 
 .map-container {
     width: auto;
@@ -243,6 +254,7 @@ section{
     width: 200px;
     height: 150px;
     border: 0;
+    border-radius: 5px;
 }
 
 .p1{
@@ -270,7 +282,12 @@ section{
   text-align: center;
   height:40px;
   font-size: 18px;
-  border-radius: 5px;
+}
+
+.abtus-table caption{
+  background-color: #1d4d81;
+  border-radius: 20px;
+
 }
 
 .abtus-summary{
@@ -278,7 +295,7 @@ section{
   border-radius: 40px;
   padding:20px 20px;
   text-align: center;
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
 .abtus-summary a{
@@ -307,6 +324,8 @@ th{
     height: 80px;
     top:7px;
     border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
 }
 
 .p-stickybox{
@@ -335,7 +354,8 @@ th{
   height:200px;
   margin:15px;
   border-radius: 5px;
-  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
 }
 
 #flex_container > div p{
@@ -354,9 +374,10 @@ th{
 .grid-container > div{
   background-color: #90d6d29c;
   flex-direction: column;
-  padding: 15px;
-  margin: 10px;
-  border-radius:5px ;
+  margin: 20px;
+  border-radius:40px ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
 }
 
 .grid-container > div ul{
@@ -397,6 +418,8 @@ th{
   width:35%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.479), 0 6px 20px rgba(0, 0, 0, 0.479);
+
 }
 
 .table p{
@@ -454,6 +477,8 @@ th{
   height:auto;
   margin:15px;
   border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
 }
 
 #flex-container3{
